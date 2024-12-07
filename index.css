@@ -273,6 +273,11 @@ button.card-button svg path{
   .card h2{
     font-size: 16px;
     height: 35px;
+    overflow: hidden;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;
+  margin-bottom: 10px;
   }
   .card p{
     text-align: left;
@@ -288,7 +293,7 @@ button.card-button svg path{
       font-size: 20px;
   }
 }
-@media screen and (max-width: 428px) {
+@media screen and (max-width: 390px) {
 
   h1 {
       font-size: 18px;
